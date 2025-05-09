@@ -30,6 +30,31 @@ npm install -D sass
 }
 ```
 
+## Structure du Projet
+
+```
+sass-starter/
+├── css/          # Fichiers CSS compilés
+├── sass/         # Fichiers source SASS
+└── index.html    # Page principale
+```
+
+## Développement
+
+Pour compiler les fichiers SASS en CSS, ouvrir le terminal et lancer la commande :
+
+```bash
+npm run dev
+```
+
+### arrêter le serveur se fait avec `ctrl + c`
+
+Pour compiler les fichiers SASS en CSS compressé :
+
+```bash
+npm run build
+```
+
 ## Solution 2 : Cloner le projet
 
 forker le repo sur GitHub, ensuite cloner la version forkée en local
@@ -43,30 +68,6 @@ git clone [URL_DU_REPO]
    ```bash
    npm install
    ```
-
-## Structure du Projet
-
-```
-sass-starter/
-├── css/          # Fichiers CSS compilés
-├── sass/         # Fichiers source SASS
-├── index.html    # Page principale
-└── style.scss    # Fichier SASS principal
-```
-
-## Développement
-
-Pour compiler les fichiers SASS en CSS :
-
-```bash
-npm run dev
-```
-
-Pour compiler les fichiers SASS en CSS compressé :
-
-```bash
-npm run build
-```
 
 # Les Fonctionnalités Clés de Sass
 
