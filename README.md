@@ -145,14 +145,14 @@ Sass permet d'imbriquer les media queries directement dans les sélecteurs.
   display: flex;
   width: 100%;
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     flex-direction: column;
   }
 
   .logo {
     margin-right: 20px;
 
-    @media (max-width: 768px) {
+    @media (min-width: 768px) {
       margin: 0 0 10px 0;
     }
   }
