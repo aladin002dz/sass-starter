@@ -55,6 +55,16 @@ Pour compiler les fichiers SASS en CSS compressé :
 npm run build
 ```
 
+### Pour initialiser Git
+
+Créer un fichier `.gitignore` pour ignorer le dossier `node_modules`
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+```
+
 ## Solution 2 : Cloner le projet
 
 forker le repo sur GitHub, ensuite cloner la version forkée en local
