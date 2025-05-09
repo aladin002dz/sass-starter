@@ -129,25 +129,11 @@ nav {
 L'organisation modulaire du code avec des fichiers partiels.
 
 ```scss
-// _variables.scss
-$primary-color: #3498db;
-
-// _mixins.scss
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-// main.scss
-@import "variables";
-@import "mixins";
-
-body {
-  color: $primary-color;
-  @include flex-center;
-}
+@use "./reset";
+@use "./composants/footer";
 ```
+
+les fichiers partiels doivent commencer par un underscore "\_"
 
 ## 4. Media Queries imbriquées
 
