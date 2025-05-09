@@ -6,8 +6,10 @@ $card-bg: #fff;
 $text: #353535;
 $muted: #7e7e7e;
 $radius: 18px;
-$shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+$shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 @use './_reset.scss';
+@use './composants/_footer.scss';
+//@use './composants/_header.scss';
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
