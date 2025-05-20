@@ -79,6 +79,12 @@ git clone git@github.com:aladin002dz/sass-starter.git
    npm install
    ```
 
+# Commencer le développement
+
+```bash
+npm run dev
+```
+
 # Les Fonctionnalités Clés de Sass
 
 Sass (Syntactically Awesome Style Sheets) est un préprocesseur CSS qui offre de nombreuses fonctionnalités pour rendre le code CSS plus puissant et maintenable. Voici quelques exemples pratiques des fonctionnalités clés:
