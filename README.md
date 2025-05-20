@@ -200,7 +200,9 @@ Les mixins sont des blocs de code réutilisables, semblables à des fonctions.
 }
 ```
 
-## 6. Extend/Inheritance
+## Fonctionalités avancées
+
+### 6. Extend/Inheritance
 
 La directive `@extend` permet d'hériter des styles d'un sélecteur à un autre.
 
@@ -227,7 +229,7 @@ La directive `@extend` permet d'hériter des styles d'un sélecteur à un autre.
 }
 ```
 
-## 7. Opérations mathématiques
+### 7. Opérations mathématiques
 
 Sass permet d'effectuer des calculs directement dans les styles.
 
@@ -243,7 +245,7 @@ $padding: 20px;
 }
 ```
 
-## 8. Fonctions
+### 8. Fonctions
 
 Sass offre de nombreuses fonctions intégrées et permet d'en créer des personnalisées.
 
@@ -262,7 +264,7 @@ Sass offre de nombreuses fonctions intégrées et permet d'en créer des personn
 }
 ```
 
-## 9. Conditionnels
+### 9. Conditionnels
 
 Les directives conditionnelles permettent d'appliquer différents styles selon certaines conditions.
 
@@ -294,7 +296,7 @@ $theme: "dark";
 }
 ```
 
-## 10. Boucles
+### 10. Boucles
 
 Sass offre plusieurs types de boucles pour générer du CSS répétitif.
 
