@@ -25,8 +25,8 @@ npm install -D sass
 
 ```json
 "scripts": {
-  "dev": "sass --watch sass/style.scss:css/style.css",
-  "build": "sass sass/style.scss:css/style.css --style=compressed"
+  "dev": "sass --watch sass/main.scss:css/style.css",
+  "build": "sass sass/main.scss:css/style.css --style=compressed"
 }
 ```
 
@@ -70,7 +70,7 @@ git commit -m "Initial commit"
 forker le repo sur GitHub, ensuite cloner la version forkée en local
 
 ```bash
-git clone [URL_DU_REPO]
+git clone git@github.com:aladin002dz/sass-starter.git
    cd sass-starter
 ```
 
@@ -200,7 +200,7 @@ Les mixins sont des blocs de code réutilisables, semblables à des fonctions.
 }
 ```
 
-## Fonctionalités avancées
+# Fonctionalités avancées
 
 ### 6. Extend/Inheritance
 
@@ -333,15 +333,3 @@ $i: 1;
 ```
 
 Ces exemples illustrent comment Sass peut simplifier et améliorer considérablement votre workflow CSS, en rendant votre code plus modulaire, maintenable et DRY (Don't Repeat Yourself).
-
-## Contribution
-
-1. Fork le projet
-2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
-## Licence
-
-Ce projet est sous licence MIT.
